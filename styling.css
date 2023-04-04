@@ -1,0 +1,462 @@
+/* STYLING SECTION-0 ---> SECTION-1 */
+
+body {
+  background-repeat: no-repeat;
+  font-family: "Inter";
+  background-size: cover;
+  background-color: black;
+}
+.social-icons {
+  background-repeat: no-repeat;
+  position: fixed;
+  color: white;
+  top: 3.5rem;
+  right: 21rem;
+  width: 5rem;
+  height: 6rem;
+  text-decoration: none;
+}
+
+.offcanvas-frame {
+  border-image: url("./static/Chain\ Illustration.svg") 93 92 87 92 repeat;
+
+  border-right-style: outset;
+  border-width: 60px;
+  border-image-width: 13;
+  display: block;
+  width: 40%;
+  height: auto;
+  background-color: black;
+  margin: 0 auto;
+}
+.menu-items{
+  margin-top: 20%;
+  margin-left: 40%;
+}
+.menu-items li{
+  list-style-type: none;
+}
+.menu-items li a{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 22px;
+  text-transform:uppercase;
+}
+.menu-items button{
+  float: right;
+  margin-right: 1rem;
+  margin-top: -2rem;
+  
+}
+
+.navbar-bg {
+  /* Hands Image as Background */
+
+  background-size: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  position: relative;
+  align-self: center;
+  width: 100%;
+  /* transform: rotate(174.18deg); */
+}
+
+.hres {
+  color: white;
+  padding-left: 15px;
+  padding-top: 450px;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.h3 {
+  padding-left: 15px;
+  font-size: 16px;
+  padding-right: 50%;
+  color: #a3a3a3;
+}
+.gapping {
+  margin: 150px;
+}
+
+/* Queries 2 */
+.section-1 {
+  background-color: #06080f;
+  color: #5865f2;
+}
+@media (max-width: 768px) {
+  .text {
+    font-size: 16px;
+  }
+  .hres {
+    font-size: calc(1rem + 3.3vw);
+    padding-top: 0px;
+    margin-top: calc(-20rem + 1vh);
+  }
+  .h3 {
+    font-size: calc(0.5rem + 1vw);
+    padding-right: 20%;
+  }
+  .gapping {
+    margin: 75px;
+  }
+}
+/* END - STYLING SECTION-0 ---> SECTION-1 */
+
+/* STYLING SECTION-2 ---> SECTION-3 */
+
+.div1 {
+  position: absolute;
+  width: 100%;
+  height: 390px;
+}
+.div2 {
+  position: absolute;
+  top: 188.49px;
+  left: 0px;
+  border-radius: 3px;
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 200px;
+}
+.pic {
+  position: absolute;
+  width: 388px;
+  height: 390px;
+  object-fit: cover;
+}
+.btn-robo {
+  width: 15rem;
+  margin-top: 5rem;
+  margin-left: 10rem;
+  margin-bottom: 5rem;
+  padding: 1rem;
+}
+
+.heads {
+  margin-top: 5rem;
+  width: 20rem;
+  margin-left: 18rem;
+  font-weight: 800;
+  font-size: 20px;
+
+  color: #20272c;
+  text-align: left;
+}
+@media (max-width: 768px) {
+  .div1 {
+    height: 255px;
+  }
+  .pic {
+    width: 203px;
+    height: 250px;
+  }
+  .div2 {
+    top: 95.25px;
+    height: 155px;
+  }
+  .btn-robo {
+    width: 10rem;
+    margin-right: 2rem;
+    font-size: 12px;
+    padding: 0.5rem;
+    margin-top: 0rem;
+  }
+
+  .heads {
+    margin-top: 2rem;
+    width: 15rem;
+
+    margin-left: 10rem;
+    font-weight: 600;
+    font-size: 15px;
+  }
+}
+
+.margin-div {
+  margin-top: 50rem;
+}
+.h1 {
+  color: #20272c;
+  font-size: 70px;
+  font-weight: 800;
+  text-align: left;
+}
+.h2 {
+  color: #20272c;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .margin-div {
+    margin-top: 30rem;
+  }
+  .h1 {
+    font-size: 35px;
+  }
+  .h2 {
+    font-size: 16px;
+  }
+}
+
+/* END - STYLING SECTION-2 ---> SECTION-3 */
+
+/* STYLING SECTION-4 */
+.gallery {
+  float: left;
+  width: 100px;
+  padding: 25px;
+  padding-left: 0px;
+}
+
+.gallery img {
+  height: 100px;
+  width: 100px;
+  margin-left: 4rem;
+}
+.galleryd {
+  float: left;
+  width: 100px;
+  padding: 25px;
+  padding-left: 80px;
+}
+.galleryd img {
+  height: 100px;
+  width: 100px;
+}
+.margin-div2 {
+  margin-top: 8rem;
+}
+@media (max-width: 768px) {
+  .margin-div2 {
+    margin-top: 4rem;
+  }
+  .gallery {
+    padding: 12.5px;
+  }
+  .gallery img {
+    margin-left: 2rem;
+  }
+  .galleryd {
+    padding: 12.5px;
+  }
+}
+
+/* END - STYLING SECTION-4 */
+
+/* STYLING SECTION-7 */
+.padd {
+  padding-top: 5px;
+}
+.image-blurred-edge {
+  background-image: url("");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200px;
+  width: 100%;
+  height: 200px;
+  /* you need to match the shadow color to your background or image border for the desired effect*/
+  box-shadow: 10px -20px 10px 0 white inset;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  opacity: 0.25;
+  color: black;
+  z-index: 1;
+  transition: 500ms;
+}
+.card-body:hover {
+  transform: scale(1.02);
+  opacity: 0.5;
+  color: white;
+  background-color: black;
+  z-index: 9999;
+  transition: 0.3ms;
+}
+.sec-7-pad {
+  padding-bottom: 2rem;
+}
+
+/* .footer-bg { */
+/* Hands Image as Background */
+/* background-image: url(./static/hands-rotated.png); */
+/* background-size: 100%;
+  min-height: 106vh;
+  background-repeat: no-repeat;
+
+  align-items: center;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+} */
+
+.head-foot {
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+}
+
+/* Styling for side text. */
+.text-side {
+  position: absolute;
+  width: 400px;
+  margin-left: 81.5%;
+  margin-right: 19.5%;
+  margin-bottom: 15rem;
+  color: white;
+  transform: rotate(-90deg);
+}
+.text-side img {
+  width: 100px;
+  height: 3.5px;
+  color: white;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------- */
+/* DRAFT - 1  */
+body {
+  background-color: black;
+  color: white;
+  font-family: "Inter";
+}
+.section1 {
+  background-image: url(./static/cover-degens.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 500px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.section3 {
+  background-color: white;
+  height: 100px;
+}
+span {
+  text-decoration: none;
+}
+.img {
+  top: -10%;
+}
+.section6 {
+  background-image: url(./static/cover-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 750px;
+  width: 100%;
+  border-radius: 25px;
+  margin-bottom: 100px;
+}
+.section7 {
+  background-color: #06080f;
+  color: #5865f2;
+}
+.gallery {
+  float: left;
+  width: 110px;
+}
+
+.gallery img {
+  height: 80px;
+  width: 80px;
+}
+.galleryd {
+  float: left;
+  width: 100px;
+  margin-right: 24px;
+}
+.galleryd img {
+  height: 80px;
+  width: 100px;
+}
+.neonbtn {
+  position: relative;
+}
+.neonbtn a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: lighter;
+  text-align: center;
+  letter-spacing: 3px;
+  border: 1px solid white;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 200px;
+  height: 50px;
+}
+.neonbtn a:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 15px white;
+  transition: 1000ms;
+  text-decoration: none;
+}
+.h4 {
+  color: white;
+  font-size: 3rem;
+}
+@media (max-width: 768px) {
+  .h4 {
+    font-size: 18px;
+  }
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------------- */
+/* Landing Page Styling */
+body {
+  background-color: black;
+  color: white;
+  font-family: "Inter";
+}
+.center-img img {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 100px solid white;
+  /* box-shadow: 0 0 200px lightcyan; */
+}
+.center-img h2 {
+  position: absolute;
+  top: 22%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+}
+.center-img {
+  position: relative;
+  height: 1000px;
+}
+.neonbtn {
+  position: relative;
+  top: 27%;
+}
+.neonbtn a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  margin-left: 10px;
+  text-align: center;
+
+  letter-spacing: 3px;
+  border: 2px solid white;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 200px;
+  height: 50px;
+}
+.neonbtn a:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 5px white;
+
+  text-decoration: none;
+}

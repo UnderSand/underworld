@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Landing Page</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link href="./styling.css" rel="stylesheet" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/1b95a5b7f5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- NAVIGATION BAR -- Section-0 -->
+    <nav class="navbar">
+      <div class="container-fluid">
+        <div class="container text-center">
+          <div class="row my-5">
+            <h2 class="text-start text-light" style="font-weight: 900">
+              UNDERWORLD
+            </h2>
+            <button
+              class="navbar-toggler py-5"
+              type="button"
+              data-bs-toggle="offcanvas"
+              href="#offcanvasExample"
+              role="button"
+              aria-controls="offcanvasExample"
+              style="
+                background-image: url('./static/navbar-toggle.png');
+                background-repeat: no-repeat;
+                position: fixed;
+                right: 2rem;
+                width: 5rem;
+                height: 5rem;
+              "
+            ></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Offcanvas -->
+      <div
+        class="offcanvas offcanvas-start offcanvas-frame"
+        tabindex="-1"
+        id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+      <div class="menu-items">
+        <button class="btn btn-light btn-close btn-close-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+        
+      </button>
+      <li><a href="#">Tools</a></li><br>
+      <li><a href="#">Legion</a></li><br>
+       <li><a href="https://shared-horn-504.notion.site/A-TAKE-ON-SYNERGY-c5242cbb7f414ccabfbaf46032dc27b4" target="_blank">Synergy</a></li>
+    </div>
+        <div class="offcanvas-header px-5 my-5">
+          <img
+            class="px-5 py-5 my-5"
+            src="./static/Logo-main-no-bg.png"
+            width="300"
+            height="355"
+          />
+        </div>
+      </div>
+    </nav>
+
+    <div style="margin-top: 2.5%"></div>
+
+    <!-- Content -- Section-1 -->
+    <div class="container">
+      <div class="text-center">
+        <img
+          src="./static/Logo-main-no-bg.png"
+          width="280px"
+          height="350px"
+          alt=""
+        />
+      </div>
+      <div class="text-center">
+        <h2><b>UNDERWORLD,WHAT?</b></h2>
+        <div class="neonbtn text-center" style="margin-top: 3rem">
+          <a href="home.html">Discover</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
